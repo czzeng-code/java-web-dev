@@ -44,17 +44,17 @@ public class UserService {
         return  null;
     }
 
-    public static void main(String[] args) {
-        UserService us = new UserService();
-        us.init();
-        User user = us.userLogin("aaa@qq.com", "111");
-        if (user != null){
-            System.out.println(user);
-        }else {
-            System.out.println("登录失败");
-        }
-
-    }
+//    public static void main(String[] args) {
+//        UserService us = new UserService();
+//        us.init();
+//        User user = us.userLogin("aaa@qq.com", "111");
+//        if (user != null){
+//            System.out.println(user);
+//        }else {
+//            System.out.println("登录失败");
+//        }
+//
+//    }
 
     public User signIn(String account, String password) {
         for (User user : userList) {
