@@ -33,6 +33,7 @@
             border-radius: 3px;
             margin-left: 50px;
         }
+
         .search-btn {
             width: 35px;
             height: 35px;
@@ -41,26 +42,33 @@
             align-items: center;
             justify-content: center;
         }
+
         .search-btn img {
             width: 50%;
             height: 50%;
         }
+
         .card {
             height: 180px;
             margin: 20px 5px 20px 5px;
         }
+
         .card img {
             width: 100%;
             height: 90%;
         }
+
         .card p {
             font-size: 13px;
             color: #9b9b9b;
         }
+
         .col-4 img {
             margin: 10px 5px 20px 5px;
-            width: 80%;
+
+            width: 85%;
         }
+
         hr {
             width: 90%;
             color: #eee;
@@ -93,28 +101,28 @@
             <h3>热门图书</h3>
             <hr>
             <div class="row">
-                <%--          遍历图书集合--%>
-<%--                <%--%>
-<%--                    for(Book book : bookList) {--%>
-<%--                        pageContext.setAttribute("book", book);--%>
-<%--                %>--%>
-<%--                <div class="col-2 card">--%>
-<%--                    &lt;%&ndash;          点击图书封面进入图书详情&ndash;%&gt;--%>
-<%--                    <a href="${pageContext.request.contextPath}/detail/${book.id}">--%>
-<%--                        <img src="img/${book.cover}" alt="">--%>
-<%--                    </a>--%>
-<%--                    <p style="color: rgb(51, 119, 178)">${book.name}</p>--%>
-<%--                    <p>${book.author}</p>--%>
-<%--                </div>--%>
-<%--                <%--%>
-<%--                    }--%>
-<%--                %>--%>
+                <%-- 遍历图书集合--%>
+                <%
+                    for (Book book : bookList) {
+                        pageContext.setAttribute("book", book);
+                %>
+                <div class="col-2 card">
+                    <%-- 点击图书封面进入图书详情--%>
+                    <a href="${pageContext.request.contextPath}/detail/${book.id}">
+                        <img src="img/${book.cover}" alt="">
+                    </a>
+                    <p style="color: rgb(51, 119, 178)">${book.name}</p>
+                    <p>${book.author}</p>
+                </div>
+                <%
+                    }
+                %>
             </div>
         </div>
         <div class="col-4">
             <h3>排行榜</h3>
-            <br>
-
+            <hr>
+            <img src="img/right.jpg" alt="">
         </div>
 
     </div>
@@ -122,8 +130,7 @@
     <footer>
         <ur>
             <li>@2015-2019</li>
-            <li>niit.edu.cn,</li>
-            <li>all rights reserved</li>
+            <li>niit.edu.cn, all rights reserved</li>
             <li>南工院计软院</li>
         </ur>
         <ul>
