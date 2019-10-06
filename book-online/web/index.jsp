@@ -27,7 +27,7 @@
 
         search-input {
             flex: 0 0 40%;
-            height: 35px;
+            height: 38px;
             background-color: #fff;
             border: none;
             border-radius: 3px;
@@ -37,15 +37,15 @@
         .search-btn {
             width: 35px;
             height: 35px;
-            background-color: rgb(155, 154, 143);
+            background-color: rgb(246, 246, 241);
             display: flex;
             align-items: center;
             justify-content: center;
         }
 
         .search-btn img {
-            width: 50%;
-            height: 50%;
+            width: 100%;
+            height: 80%;
         }
 
         .card {
@@ -131,7 +131,7 @@
         <ur>
             <li>@2015-2019</li>
             <li>niit.edu.cn, all rights reserved</li>
-            <li>南工院计软院</li>
+<%--            <li>南工院计软院</li>--%>
         </ur>
         <ul>
             <li>联系我们</li>

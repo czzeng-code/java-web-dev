@@ -38,7 +38,7 @@
     %>
     <li>
         <a href="${pageContext.request.contextPath}/user">
-            <img src="${pageContext.request.contextPath}/images/${user.avatar}" alt="" class="avatar">
+            <img src="${pageContext.request.contextPath}/img/${user.avatar}" alt="" class="avatar">
         </a>
     </li>
     <li>

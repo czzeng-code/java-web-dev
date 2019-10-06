@@ -3,7 +3,7 @@
 <html>
 <head>
     <title>图书详情页</title>
-    <link rel="stylesheet" href="${pageContext.request.contentPath}/css/style.css" type="text/css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css" type="text/css">
     <style type="text/css">
         h2, h3 {
             color: rgb(73, 73, 73);

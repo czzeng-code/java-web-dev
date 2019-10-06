@@ -33,7 +33,7 @@ public class ContextLoaderListener implements ServletContextListener {
         User[] users = {
                 new User(1, "aaa@qq.com", "698d51a19d8a121ce581499d7b701668", "ToBe", "user1.jpeg", "江苏南京", LocalDate.of(2018, 6, 11)),
                 new User(2, "bbb@qq.com", "698d51a19d8a121ce581499d7b701668", "NotToBe", "user2.jpeg", "上海", LocalDate.of(2010, 6, 11)),
-                new User(3, "ccc@qq.com", "698d51a19d8a121ce581499d7b701668", "忍", "user1.jpg", "江西南昌", LocalDate.of(2018, 6, 11))
+                new User(3, "ccc@qq.com", "698d51a19d8a121ce581499d7b701668", "忍", "user3.jpg", "江西南昌", LocalDate.of(2018, 6, 11))
         };
         userList = Arrays.asList(users);
 
