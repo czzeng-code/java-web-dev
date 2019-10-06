@@ -38,7 +38,7 @@ public class ContextLoaderListener implements ServletContextListener {
         userList = Arrays.asList(users);
 
 //        图书列表
-        List<Book> bookList = new ArrayList<>(12);
+        List<Book> bookList = new ArrayList<>(15);
         Book[] books = {
                 new Book(1, "人类简史", "book1.jpg", "【以色列】尤瓦尔·赫拉利"),
                 new Book(2, "影响力", "book2.jpg", "【美】罗伯特·西奥迪尼"),
@@ -51,7 +51,13 @@ public class ContextLoaderListener implements ServletContextListener {
                 new Book(9, "王阳明全集", "book9.jpg", "（明）王守仁"),
                 new Book(10, "余生，请多指教", "book10.jpg", "柏林石匠"),
                 new Book(11, "人性的弱点", "book11.jpg", "【美】卡耐基"),
-                new Book(12, "狼道", "book12.jpg", "【美】特曼·托尔瑞")
+                new Book(12, "狼道", "book12.jpg", "【美】特曼·托尔瑞"),
+                new Book(13, "明朝那些事儿", "book13.jpeg", "当年明月"),
+                new Book(14, "曾国藩家书", "book14.jpeg", "（清）曾国藩"),
+                new Book(15, "雪中悍刀行", "book15.jpeg", "烽火戏诸侯")
+
+
+
         };
         bookList = Arrays.asList(books);
 

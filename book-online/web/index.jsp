@@ -126,12 +126,12 @@
         </div>
 
     </div>
-
+    <br>
     <footer>
         <ur>
             <li>@2015-2019</li>
-            <li>niit.edu.cn, all rights reserved</li>
-<%--            <li>南工院计软院</li>--%>
+            <li>niit.edu.cn,</li>
+            <li>南工院计软院</li>
         </ur>
         <ul>
             <li>联系我们</li>
