@@ -92,7 +92,7 @@
         <div class="col-4">
             <h3>热门排行榜</h3>
             <hr>
-<%--            img--%>
+            <img src="/img/right.jpg" alt="">
         </div>
     </div>
 </div>
